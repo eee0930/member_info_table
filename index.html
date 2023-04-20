@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <link rel="stylesheet" href="./style.css">
+    <head>
+        <meta charset="UTF-8">
+        <title>회사 멤버 정보</title>
+    </head>
+    <body>
+        <div class="App">
+            <div id="page_title">Grepp Enterprise</div>
+            <div class="area" id="dropdown">
+                <select>
+                    <option value="5">5개씩</option>
+                    <option value="15">15개씩</option>
+                </select>
+            </div>
+
+            <div class="area" id="table"></div>
+
+            <div class="area" id="pagination">
+                <button class="arrow"><<</button>
+                <button style="color:red">1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button class="arrow">>></button>
+            </div>
+        </div>
+        <script src="./api.js"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>
